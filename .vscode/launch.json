@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:clamshell}",
+            "name": "Debug Clamshell",
+            "target": "Clamshell",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Clamshell"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:clamshell}",
+            "name": "Release Clamshell",
+            "target": "Clamshell",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Clamshell"
+        }
+    ]
+}
